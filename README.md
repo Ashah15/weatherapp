@@ -1,6 +1,4 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
-
-# Project Name
+# Weather app
 
 > One paragraph statement about the project.
 
