@@ -4,12 +4,26 @@
 	<meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
 	<title>Weather Update App</title>
 </head>
 <body>
- <div class="content"></div>
+ <div class="app-wrap">
+ 	<header>
+ 		<input type="text" autocomplete="off" class="search-box" placeholder="Search for a city..." />
+ 	</header>
+ 	<main>
+ 		<section class="location">
+ 			<div class="city">Mombasa</div>
+ 			<div class="date">Wednesday 4 November 2022</div>
+ 		</section>
+ 		<div class="current">
+ 			<div class="temp">20<span>°C</span></div>
+ 			 <div class="weather">Cloudy</div>
+             <div class="hi-low">10°C / 18°C</div>	
+ 		</div>
+ 	</main>
+ </div>
  <script src="main.js"></script>
 </body>
 </html>
