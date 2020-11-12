@@ -1,7 +1,8 @@
 body {
   font-family: 'montserrat', sans-serif;
   background-size: cover;
-  background-position: top center; 
+  background-position: top center;
+  background-image: url('composing.jpg');
 }
 
 * {
@@ -99,7 +100,7 @@ main {
     height: 30px;
     width: 30px;
     border-radius: 50%;
-    cursor: pointer;
+    cursor: pointer;cd 
 }
 
 .fh-btn:active, .cs-btn:active,.fh-btn:focus, .cs-btn:focus{
