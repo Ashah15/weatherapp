@@ -103,3 +103,8 @@ main {
 .fh-btn:active, .cs-btn:active,.fh-btn:focus, .cs-btn:focus{
   outline:none;
 }
+
+.temp-toggle {
+position: absolute;
+left: calc(50vw - 230px);
+}
