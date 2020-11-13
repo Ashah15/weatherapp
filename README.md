@@ -3,7 +3,7 @@
 Weather forcast using api
 
 Screenshot of the weather app
-![weather](https://user-images.githubusercontent.com/25789605/98422356-7ed7f000-209c-11eb-95c1-73a4fd007600.png)
+![weatherapp](https://user-images.githubusercontent.com/25789605/99096880-e5529600-25e7-11eb-8e43-114603dcc165.png)
 
 ## Built With
 
@@ -14,7 +14,7 @@ Screenshot of the weather app
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://ashah15.github.io/weatherapp/)
 
 ### Prerequisites
 Npm
