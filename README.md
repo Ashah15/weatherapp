@@ -2,8 +2,7 @@
 
 Weather forcast using api
 
-Screenshot of the weather app
-![weatherapp](https://user-images.githubusercontent.com/25789605/99096880-e5529600-25e7-11eb-8e43-114603dcc165.png)
+![weather](https://user-images.githubusercontent.com/25789605/100658861-c4689f80-3360-11eb-95b0-7ce2cc14202c.png)
 
 ## Built With
 
