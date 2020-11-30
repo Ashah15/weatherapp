@@ -1,6 +1,7 @@
 import api from './config';
 import displayResults from './displayResults';
-const defaultCountry = 'kenya'
+
+const defaultCountry = 'kenya';
 function getResults(query) {
   fetch(`${api.base}weather?q=${query}&units=metric&APPID=${api.key}`)
     .then(weather => weather.json()).then(displayResults);
@@ -15,7 +16,7 @@ function setQuery(event) {
 }
 
 searchBox.addEventListener('keypress', setQuery);
-getResults(defaultCountry)
+getResults(defaultCountry);
 
 const tempConverter = (value, degree) => {
   if (degree === 'C') {
