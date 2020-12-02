@@ -1,59 +1,40 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+# Weather app
 
-# Project Name
+Weather forcast using api
 
-> One paragraph statement about the project.
-
-![screenshot](./app_screenshot.png)
-
-Additional description about the project and its features.
+![weather](https://user-images.githubusercontent.com/25789605/100658861-c4689f80-3360-11eb-95b0-7ce2cc14202c.png)
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
+- HTML,
+- CSS,
+- JAVASCRIPT,
+- WEBPACK
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
-
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
+[Live Demo Link](https://ashah15.github.io/weatherapp/)
 
 ### Prerequisites
+Npm
+Node
 
 ### Setup
+- Fork the repo to your remote repository.
+- Clone or download the repository to your local machine.
+- Run npm install
+- Run npm run build
 
 ### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+None required
 
 ## Authors
 
-👤 **Author1**
+👤 **Asha Abdullahi**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
-
-👤 **Author2**
-
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+-  [@githubhandle](https://github.com/Ashah15)
+-  [@twitterhandle](https://twitter.com/AshaAbdullahi13)
+-  [linkedin](https://www.linkedin.com/in/ashaabdullahi/)
 
 ## 🤝 Contributing
 
