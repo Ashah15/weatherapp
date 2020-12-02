@@ -33,8 +33,7 @@ document.querySelector('.temp-toggle .fh-btn').addEventListener('click', () => {
   if (degree === 'C') {
     temp = tempConverter(temp, 'C');
     degree = '°F';
-    // document.querySelector('.temp span:first-child').innerHTML = 50 + '';
-    document.getElementById('unit').innerHTML = 'hello';
+    document.querySelector('.temp span:first-child').innerHTML = temp + '';
     document.querySelector('.temp span:last-child').innerHTML = degree;
   }
 });
@@ -45,7 +44,7 @@ document.querySelector('.temp-toggle .cs-btn').addEventListener('click', () => {
   if (degree === 'F') {
     temp = tempConverter(temp, 'F');
     degree = '°C';
-    document.querySelector('.temp span:first-child').innerHTML = 45 + '';
+    document.querySelector('.temp span:first-child').innerHTML = temp + '';
     document.querySelector('.temp span:last-child').innerHTML = degree;
   }
 });
