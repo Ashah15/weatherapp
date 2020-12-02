@@ -28,23 +28,23 @@ const tempConverter = (value, degree) => {
 };
 document.querySelector('.temp-toggle .fh-btn').addEventListener('click', () => {
   const text = document.querySelector('.temp').innerText.split('°');
-  let temp = parseInt(text[0]);
+  let temp = Number(text[0]);
   let degree = text[1];
   if (degree === 'C') {
     temp = tempConverter(temp, 'C');
     degree = '°F';
-    document.querySelector('.temp span:first-child').innerHTML = temp + '';
+    document.querySelector('.temp span:first-child').innerHTML = `${temp}`;
     document.querySelector('.temp span:last-child').innerHTML = degree;
   }
 });
 document.querySelector('.temp-toggle .cs-btn').addEventListener('click', () => {
   const text = document.querySelector('.temp').innerText.split('°');
-  let temp = parseInt(text[0]);
+  let temp = Number(text[0]);
   let degree = text[1];
   if (degree === 'F') {
     temp = tempConverter(temp, 'F');
     degree = '°C';
-    document.querySelector('.temp span:first-child').innerHTML = temp + '';
+    document.querySelector('.temp span:first-child').innerHTML = `${temp}`;
     document.querySelector('.temp span:last-child').innerHTML = degree;
   }
 });

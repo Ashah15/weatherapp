@@ -45,8 +45,8 @@ const displayResults = (weather) => {
 
   // const temp = document.querySelector('.current .temp');
   // temp.innerHTML = `${Math.round(weather.main.temp)}<span>°C</span>`;
-  const temp = document.querySelector(".current .temp"); 
-  temp.innerHTML = `<span>${Math.round( weather.main.temp )}</span><span>°C</span>`;
+  const temp = document.querySelector('.current .temp');
+  temp.innerHTML = `<span>${Math.round(weather.main.temp)}</span><span>°C</span>`;
 
   const weatherElement = document.querySelector('.current .weather');
   weatherElement.innerText = weather.weather[0].main;
