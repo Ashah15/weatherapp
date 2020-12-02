@@ -138,6 +138,6 @@ main {
 }
 
 .temp-toggle {
-position: absolute;
-left: calc(50vw - 230px);
+  position: absolute;
+  left: calc(50vw - 230px);
 }
